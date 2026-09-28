@@ -1,0 +1,21 @@
+# AI Asszisztens – Cursor kötelező szabályok
+
+Ez a fájl a Cursor számára kötelező utasítás.
+
+## Minden generálás / válasz / terv / adatkiadás előtt
+
+1. Olvasd be a `CURSOR_UTASITAS.md` fájlt.
+2. Olvasd be a `06_Altalanos_szabalyrendszer/MASTER_SZABALYRENDSZER.md` fájlt.
+3. Olvasd be a releváns modul szabályfájlját.
+4. Futtasd a `03_Validacio_es_Review/Pre_release_checklist/PRE_RELEASE_CHECKLIST.md` checklistet.
+5. Ha BÁRMELYIK szabály FAIL → NE generáld a végső kimenetet.
+   Helyette sorold fel a FAIL-eket és kérj döntést / javítást.
+6. Csak ha minden PASS → generálj.
+7. Kiadás után írd be a megfelelő Kiadasi_log-ba és ha kell a Tanulasi_loop-ba / Torteneti_esetek-be.
+
+## Státuszok
+- 01_PM_Tervezes_Muszereszek → ÉLES (Balogh János review kötelező)
+- 02_PM_Tervezes_OP_MNT_PM → CSAK PILOT (éles kiadás TILOS)
+
+## Összefüggések
+Mindig lásd át az egész projektstruktúrát. A felhasználó csak az aktuális részt szerkesztheti, te tartsd meg a teljes kontextust.
